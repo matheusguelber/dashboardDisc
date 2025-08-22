@@ -1,27 +1,32 @@
+# Configuração do GitHub Pages
+title: "Epic Games Bot Dashboard"
+description: "Dashboard em tempo real para monitorar jogos gratuitos da Epic Games"
+author: "Seu Nome"
+baseurl: ""
+url: "https://SEU_USUARIO.github.io"
 
+# Tema
+theme: minima
 
-Reading... OK
-Detect mode: MTP
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
 
-Model		: SM-G770F
-CSC		: ZTO
-AP version	: G770FXXS9HXA6
-BL version	: G770FXXS9HXA2
-CP version	: G770FXXS9HXA6
-CSC version	: G770FOWO9HXA7
-IMEI		: 354149110415541
-SN		: RX8NC05M2NB
-Lock status	: NONE
-Country		: BR
-MCC		: 724,
-MNC		: 03,
-USB mode	: AT,MTP
-Unique number	: CE10204A1408B1A3207E
-Firmware	: https://google.com/SM-G770F/ZTO
-Using port SAMSUNG Mobile USB Modem (COM3)
-Enviando comando ADB... OK
-Enviando comando ADB... OK
-Enviando comando ADB... OK
-Enviando comando ADB... OK
-Enviando comando ADB... OK
-Enviando comando ADB... OK
+# Configurações de build
+markdown: kramdown
+highlighter: rouge
+
+# Configurações de SEO
+lang: pt-BR
+locale: pt_BR
+
+# Excluir arquivos do build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
