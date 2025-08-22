@@ -3,7 +3,7 @@ title: "Epic Games Bot Dashboard"
 description: "Dashboard em tempo real para monitorar jogos gratuitos da Epic Games"
 author: "Seu Nome"
 baseurl: ""
-url: "https://SEU_USUARIO.github.io"
+url: "https://matheusguelber.github.io"
 
 # Tema
 theme: minima
@@ -30,3 +30,4 @@ exclude:
   - vendor
   - .sass-cache
   - .jekyll-cache
+
